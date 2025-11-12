@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Exposición Fotográfica Interactiva — Rutina / El paso del tiempo / Dependiente / Señales de carga</title>
+  <meta name="description" content="Exposición fotográfica interactiva digital — proyecto de tesis. Navega por cuatro secciones que muestran la convivencia y afectaciones del cuidador." />
+  <link rel="stylesheet" href="css/styles.css.css">
+</head>
+<body>
+  <div class="wrap" id="app">
+    <header>
+      <div>
+        <h1>Exposición Fotográfica</h1>
+        <p>"El cuidado en ruina"</p>
+      </div>
+    </header>
+
+    <nav aria-label="Secciones" class="controls">
+      <button class="btn" data-goto="rutina">Rutina</button>
+      <button class="btn" data-goto="tiempo">El paso del tiempo</button>
+      <button class="btn" data-goto="dependiente">Dependiente</button>
+      <button class="btn" data-goto="carga">Señales de carga</button>
+      <a class="btn" href="#comentarios">Dejar reflexión</a>
+      <a class="btn" href="#encuesta">Ir a la encuesta</a>
+    </nav>
+
+	  
+    <div class="hero">
+      <div class="intro">
+        <h2>Introducción</h2>
+        <p>Esta exposición digital presenta cuatro ejes narrativos <strong>Rutina</strong>, <strong>El paso del tiempo</strong>, <strong>Dependiente</strong> y <strong>Señales de carga</strong> construidos a partir de una serie fotográfica documental. Cada imagen puede ampliarse, escucharse y comentarse para propiciar una experiencia reflexiva y empática.</p>
+        <p class="small">Consejo: usa audífonos para percibir los audios ambientales. Las imágenes son sensibles; recomendamos un recorrido pausado.</p>
+      </div>
+
+      <aside class="intro">
+        <h3>Información técnica</h3>
+        <p class="small">Plataforma: HTML + CSS + JS<br>Edición: Lightroom / Photoshop<br>Desarrollo en: Adobe Dreamweaver 
+		Por Arlette Vázquez 
+		 y Gabriela Gil </p>
+        <p class="small">Fecha de prototipo: 4/11/25</p>
+      </aside>
+    </div>
+
+    <main class="sections" id="main">
+      <!-- Section placeholders same as before -->
+      
+
+		<section class="section" id="rutina">
+  <h3>Rutina</h3>
+  <p class="meta">La rutina se convierte en un territorio silencioso donde el acompañante transita día tras día. No es sólo repetir acciones: es sostener horarios médicos, medicamentos, crisis, silencios y esperas. Con el tiempo, los gestos automáticos sustituyen la voluntad; el tiempo propio se diluye y el cuidado se convierte en el centro absoluto de la vida cotidiana.</p>
+
+  <div class="gallery" data-section="Rutina">
+
+    <!-- ✅ ÚNICA imagen visible -->
+    <div class="thumb" tabindex="0" role="button"
+         data-index="0" data-section="Rutina"
+         data-title="Rutina 1" data-desc="Entre grietas y objetos, el cuidado deja marcas.
+Lo invisible se hace visible en lo cotidiano.">
+      <img alt="." src="assets/rutina1.jpg">
+    </div>
+
+    <!-- ✅ Estas se ocultan en la página, pero siguen activas para el carrusel -->
+    <div class="thumb hidden" tabindex="0" role="button"
+         data-index="1" data-section="Rutina"
+         data-title="Rutina 2" data-desc="Entre las manos, el tiempo se reparte en dosis.
+Cuidar es también contar, ordenar, repetir.">
+      <img alt="Preparación de comida" src="assets/rutina2.jpg">
+    </div>
+
+   
+  </div>
+</section>
+
+
+		<section class="section" id="tiempo">
+  <h3>El paso del tiempo</h3>
+   <p class="meta">El tiempo no avanza igual para quien acompaña: se estira, se fragmenta, se detiene. Los días se convierten en semanas y las semanas en años donde el cuidado deja huellas invisibles en el cuerpo y en la memoria. El paso del tiempo evidencia el desgaste, pero también la resistencia y la permanencia del vínculo.</p>
+
+  <div class="gallery" data-section="Tiempo">
+
+    <div class="thumb" tabindex="0" role="button"
+         data-index="0" data-section="Tiempo"
+         data-title="Tiempo1" data-desc="La noche se posa sobre el cuerpo cansado.
+El silencio sostiene lo que el día no alcanza.">
+      <img alt="Manos entregando medicamento" src="assets/tiempo1.jpg">
+    </div>
+
+    <div class="thumb hidden" tabindex="0" role="button"
+         data-index="1" data-section="Tiempo"
+         data-title="Tiempo 2" data-desc="La luz apenas toca el cuerpo que resiste.
+Afuera, el día sigue; adentro, el tiempo se detiene.">
+      <img alt="Preparación de comida" src="assets/tiempo2.jpg">
+    </div>
+
+  
+
+  </div>
+</section>
+
+<section class="section" id="dependiente">
+  <h3>Dependiente</h3>
+ <p class="meta">La dependencia no sólo habita en el cuerpo o en la mente del enfermo: se instala también en la relación con quien acompaña. El cuidador se convierte en sostén, intérprete, mediador y presencia constante. En esa dependencia, el espacio personal se disuelve; no hay distancia posible entre la necesidad del otro y la propia vida</p>
+
+  <div class="gallery" data-section="Dependiente">
+
+    <div class="thumb" tabindex="0" role="button"
+         data-index="0" data-section="Dependiente"
+         data-title="Dependiente 1" data-desc="El cuidado se mide en dosis.
+El tiempo, en frascos vacíos.">
+      <img alt="Manos entregando medicamento" src="assets/dependiente1.jpg">
+    </div>
+
+    <div class="thumb hidden" tabindex="0" role="button"
+         data-index="1" data-section="Dependiente"
+         data-title="Dependiente 2" data-desc="Medicamento">
+      <img alt="Preparación de comida" src="assets/dependiente2.jpg">
+    </div>
+
+   
+
+  </div>
+</section>
+
+	<section class="section" id="carga">
+  <h3>Carga</h3>
+  <p class="meta">La carga no siempre se declara en palabras: se filtra en detalles mínimos, casi imperceptibles. Son las ojeras que no logran esconder las noches en vela, la postura encorvada, la respiración contenida antes de un nuevo episodio. La casa se llena de objetos que evidencian el desgaste.</p>
+  <div class="gallery" data-section="Carga">
+
+    <div class="thumb" tabindex="0" role="button"
+         data-index="0" data-section="Carga"
+         data-title="Carga 1" data-desc="El hogar como complice de la carga">
+      <img alt="Manos entregando medicamento" src="assets/carga1.jpg">
+    </div>
+
+    <div class="thumb hidden" tabindex="0" role="button"
+         data-index="1" data-section="Carga"
+         data-title="Carga 2" data-desc="El hogar como complice de la carga">
+      <img alt="Preparación de comida" src="assets/carga2.jpg">
+    </div>
+
+   
+  </div>
+</section>
+	
+
+      <section class="section" id="comentarios">
+        <h3>Deja una reflexión</h3>
+        <textarea id="commentText" placeholder="Escribe tu reflexión aquí..."></textarea>
+        <button class="btn" id="submitComment">Enviar reflexión</button>
+        <div id="commentsList"></div>
+      </section>
+
+      <section class="section" id="encuesta">
+        <h3>Encuesta de percepción</h3>
+        <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSfmk49_3cONC4UmzxG81wN3kKFcDASNGx4N9Mr1xi8PD3d6bQ/viewform?usp=dialog">Ir a la encuesta</a>
+      </section>
+
+    </main>
+  </div>
+
+  <div class="modal" id="modal" aria-hidden="true" role="dialog" aria-labelledby="modalTitle">
+    <div class="modal-card" role="document">
+      <button class="close" id="closeBtn" aria-label="Cerrar">✕</button>
+      <div class="modal-body">
+        <div class="modal-main" id="modalMain"><img id="modalImg" alt=""></div>
+        <aside class="modal-side">
+			<p id="counter" class="small"></p>
+
+          <h4 id="modalTitle"></h4>
+          <p id="modalDesc" class="small"></p>
+          <button class="btn" id="playAudio"></button>
+          <button class="btn" id="pauseAudio"></button>
+          <div><button class="btn" id="prev">←</button><button class="btn" id="next">→</button></div>
+        </aside>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/scripts.js.js"></script>
+</body>
+</html>
